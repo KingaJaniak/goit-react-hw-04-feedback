@@ -1,5 +1,5 @@
 import { Stats, TextP } from './FeedbackApp.styled.js';
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types';
 
 export const Statistics = ({
   good,
@@ -23,4 +23,5 @@ Statistics.propTypes = {
   neutral: PropTypes.number,
   bad: PropTypes.number,
   total: PropTypes.number,
-  positivePercentage: PropTypes.number,};
+  positivePercentage: PropTypes.number,
+};

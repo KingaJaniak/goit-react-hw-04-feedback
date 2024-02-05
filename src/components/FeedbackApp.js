@@ -33,7 +33,10 @@ const FeedbackApp = () => {
     <Widget>
       <FeedbackArea>
         <Title>Please leave feedback</Title>
-        <FeedbackOptions options={['good', 'neutral', 'bad']} onLeaveFeedback={handleFeedback} />
+        <FeedbackOptions
+          options={['good', 'neutral', 'bad']}
+          onLeaveFeedback={handleFeedback}
+        />
         <section>
           <Title>Statistic:</Title>
           {isFeedbackGiven ? (

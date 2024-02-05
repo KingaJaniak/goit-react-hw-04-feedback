@@ -1,5 +1,5 @@
 import { Btns, BtnStats } from './FeedbackApp.styled.js';
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types';
 
 export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
